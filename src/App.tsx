@@ -224,10 +224,10 @@ function App() {
         description: 'You will hear a library announcement about a heating system issue.'
       },
       {
-        name: 'Friends Conversation',
-        audioFile: '/audio/friends-conversation.mp3',
+        name: 'Museum announcement',
+        audioFile: '/audio/museum-announcement',
         questions: currentSectionData.questions.slice(3, 6),
-        description: 'You will hear a conversation between two friends about cinema plans.'
+        description: 'You will hear a museum announcement.'
       },
       {
         name: 'Voicemail Message',
