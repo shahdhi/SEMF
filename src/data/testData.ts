@@ -332,7 +332,7 @@ export const testSections: TestSection[] = [
         options: ['To announce the library\'s closing hours.', 'To inform people about a problem with the heating.', 'To introduce new library staff.', 'To advertise study carrels.'],
         type: 'multiple-choice',
         section: 'listening',
-        audioFile: 'https://www.soundjay.com/misc/sounds/bell-ringing-05.wav',
+        audioFile: '/audio/library-announcement.mp3',
         audioGroup: 'library'
       },
       {
@@ -341,7 +341,7 @@ export const testSections: TestSection[] = [
         options: ['Go home and come back later.', 'Move to a different floor of the library.', 'Help the maintenance staff fix the problem.', 'Complain at the front desk.'],
         type: 'multiple-choice',
         section: 'listening',
-        audioFile: 'https://www.soundjay.com/misc/sounds/bell-ringing-05.wav',
+        audioFile: '/audio/library-announcement.mp3',
         audioGroup: 'library'
       },
       {
@@ -350,10 +350,10 @@ export const testSections: TestSection[] = [
         options: ['On the ground floor.', 'On the first floor.', 'On the second floor.', 'In all study carrels.'],
         type: 'multiple-choice',
         section: 'listening',
-        audioFile: 'https://www.soundjay.com/misc/sounds/bell-ringing-05.wav',
+        audioFile: '/audio/library-announcement.mp3',
         audioGroup: 'library'
       },
-      // // Museum announcement (48-50)
+      // Museum announcement (48-50)
       {
         id: 48,
         question: 'What is the main purpose of this announcement?',
@@ -388,7 +388,7 @@ export const testSections: TestSection[] = [
         options: ['Mrs. Davies.', 'A receptionist from a vet\'s office.', 'A doctor from a hospital.', 'A dog trainer.'],
         type: 'multiple-choice',
         section: 'listening',
-        audioFile: 'https://www.soundjay.com/misc/sounds/beep-28.wav',
+        audioFile: '/audio/voicemail-message.mp3',
         audioGroup: 'voicemail'
       },
       {
@@ -397,7 +397,7 @@ export const testSections: TestSection[] = [
         options: ['To cancel an appointment.', 'To give test results.', 'To schedule vaccinations for a pet.', 'To inform about changed opening hours.'],
         type: 'multiple-choice',
         section: 'listening',
-        audioFile: 'https://www.soundjay.com/misc/sounds/beep-28.wav',
+        audioFile: '/audio/voicemail-message.mp3',
         audioGroup: 'voicemail'
       },
       {
@@ -406,7 +406,7 @@ export const testSections: TestSection[] = [
         options: ['Visit the clinic immediately.', 'Call back to make an appointment.', 'Wait for another call next week.', 'Bring Bailey in for surgery.'],
         type: 'multiple-choice',
         section: 'listening',
-        audioFile: 'https://www.soundjay.com/misc/sounds/beep-28.wav',
+        audioFile: '/audio/voicemail-message.mp3',
         audioGroup: 'voicemail'
       },
       // Travel Report (54-56)
@@ -416,7 +416,7 @@ export const testSections: TestSection[] = [
         options: ['A train has been cancelled.', 'There is heavy traffic on a motorway.', 'All city centre roads are closed.', 'There are no alternative routes.'],
         type: 'multiple-choice',
         section: 'listening',
-        audioFile: 'https://www.soundjay.com/misc/sounds/button-09.wav',
+        audioFile: '/audio/travel-report.mp3',
         audioGroup: 'travel'
       },
       {
@@ -425,7 +425,7 @@ export const testSections: TestSection[] = [
         options: ['Roadworks.', 'Bad weather.', 'An accident.', 'A public event.'],
         type: 'multiple-choice',
         section: 'listening',
-        audioFile: 'https://www.soundjay.com/misc/sounds/button-09.wav',
+        audioFile: '/audio/travel-report.mp3',
         audioGroup: 'travel'
       },
       {
@@ -434,7 +434,7 @@ export const testSections: TestSection[] = [
         options: ['Wait in their cars patiently.', 'Take a different road.', 'Use the train instead.', 'Drive towards the city centre.'],
         type: 'multiple-choice',
         section: 'listening',
-        audioFile: 'https://www.soundjay.com/misc/sounds/button-09.wav',
+        audioFile: '/audio/travel-report.mp3',
         audioGroup: 'travel'
       }
     ]
